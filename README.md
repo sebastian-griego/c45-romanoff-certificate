@@ -23,6 +23,10 @@ Run everything with:
 ./verify_all.sh
 ```
 
+This command compiles `generate_seed_histogram.cpp`, writes
+`seed_histogram_13_prime.txt`, and then runs the Python verifier. These generated
+files are intentionally ignored by git; rerun the command to reproduce them.
+
 The scripts use exact integer and rational arithmetic for the proof. Decimal arithmetic is only used for display.
 
 Expected final output includes:

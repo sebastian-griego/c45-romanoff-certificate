@@ -1,0 +1,12 @@
+# Verifier build/output artifacts
+generate_seed_histogram
+generate_seed_histogram.exe
+seed_histogram_13_prime.txt
+
+# Python caches
+__pycache__/
+*.py[cod]
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
