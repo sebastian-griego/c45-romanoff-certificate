@@ -26,3 +26,6 @@ jobs:
 
       - name: Run verifier
         run: ./verify_all.sh
+
+      - name: Run Python verifier tests
+        run: python -m unittest discover -s tests
